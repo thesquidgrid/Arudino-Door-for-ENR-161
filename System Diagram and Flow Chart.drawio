@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0" version="27.0.6">
+  <diagram name="Page-1" id="uWUATymYhZsbFEZY6bOk">
+    <mxGraphModel dx="2252" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aJ971qSZYzoSthwYzDPS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aJ971qSZYzoSthwYzDPS-1" target="aJ971qSZYzoSthwYzDPS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-1" value="Micro Controller Arduino Uno" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="230" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aJ971qSZYzoSthwYzDPS-2" target="aJ971qSZYzoSthwYzDPS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-2" value="IR 1 IR201A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="100" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-3" value="IR 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="100" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.692;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aJ971qSZYzoSthwYzDPS-3" target="aJ971qSZYzoSthwYzDPS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aJ971qSZYzoSthwYzDPS-7" target="aJ971qSZYzoSthwYzDPS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-7" value="Stepper Motor Driver A5984" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="880" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-9" value="M" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=ellipse;aspect=fixed;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="890" y="420" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-13" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.settings;" vertex="1" parent="1">
+          <mxGeometry x="850" y="380" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-14" value="RACK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="530" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-19" value="Door attached to rack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="470" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aJ971qSZYzoSthwYzDPS-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-20" value="Door Starts moving to close position (starts in open position)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aJ971qSZYzoSthwYzDPS-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-130" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-37" value="IR sensor 1 does not read Black( door not closed)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aJ971qSZYzoSthwYzDPS-25">
+          <mxGeometry x="0.0306" y="1" relative="1" as="geometry">
+            <mxPoint x="19" y="37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aJ971qSZYzoSthwYzDPS-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-28" value="IR sensor&amp;nbsp; 1 Reads Black (door Closed)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aJ971qSZYzoSthwYzDPS-27">
+          <mxGeometry x="0.4902" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-24" value="After 3 Seconds, IR sensor Reads data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aJ971qSZYzoSthwYzDPS-29" target="aJ971qSZYzoSthwYzDPS-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-250" y="320" />
+              <mxPoint x="-250" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-29" value="Move Door back to open position and make a buzzer beep" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aJ971qSZYzoSthwYzDPS-33" target="aJ971qSZYzoSthwYzDPS-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-33" value="Door Remains Closed for three seconds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aJ971qSZYzoSthwYzDPS-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aJ971qSZYzoSthwYzDPS-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-47" value="IR sensor 2 does not read Black" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aJ971qSZYzoSthwYzDPS-45">
+          <mxGeometry x="0.5893" y="2" relative="1" as="geometry">
+            <mxPoint x="-332" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-38" value="Door Starts moving to Open position. After Three Seconds, read IR sensor 2&amp;nbsp; data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-46" value="Assume something is going very wrong." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-48" value="IR sensor 2 Reads Black" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="490" y="500" as="geometry">
+            <mxPoint x="-152" y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aJ971qSZYzoSthwYzDPS-49" target="aJ971qSZYzoSthwYzDPS-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="530" />
+              <mxPoint x="450" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJ971qSZYzoSthwYzDPS-49" value="Door Is confermed to be closed. Remains open for Two seconds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
